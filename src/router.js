@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Homepage from './views/Homepage.vue'
+import NewProfileProfessional from './views/NewProfileProfessional'
 
 Vue.use(Router)
 
@@ -20,6 +21,11 @@ export default new Router({
       component: function () {
         return import(/* webpackChunkName: "about" */ './views/About.vue')
       }
+    },
+    {
+      path: "/newProfessional",
+      name: "professional",
+      component: NewProfileProfessional
     }
   ]
 })
