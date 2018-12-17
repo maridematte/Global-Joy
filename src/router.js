@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Homepage from './views/Homepage.vue'
-import NewProfileProfessional from './views/NewProfileProfessional'
 
 Vue.use(Router)
 
@@ -25,7 +24,17 @@ export default new Router({
     {
       path: "/newProfessional",
       name: "professional",
-      component: NewProfileProfessional
-    }
+      component: function () {
+        return import('./views/NewProfileProfessional.vue')
+      }
+    },
+    {
+      path: "/newClient",
+      name: "client",
+      component: function () {
+        return import('./views/NewProfileClient.vue')
+      }
+    },
+
   ]
 })

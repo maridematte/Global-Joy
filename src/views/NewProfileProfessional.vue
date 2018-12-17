@@ -1,5 +1,5 @@
 <template>
-  <div className="NewUser">
+  <div className="NewUserProf">
     <form action="">
       <fieldset>
         <legend>PERSONAL INFO</legend>
