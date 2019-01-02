@@ -35,6 +35,47 @@ export default new Router({
         return import('./views/NewProfileClient.vue')
       }
     },
-
+    {
+      path: "/wholeness",
+      name: "wholeness",
+      component: function() {
+        return import('./views/Wholeness.vue')
+      }
+    },
+    {
+      path: "/performance",
+      name: "performance",
+      component: function() {
+        return import('./views/Performance.vue')
+      }
+    },
+    {
+      path: "/body",
+      name: "body",
+      component: function() {
+        return import('./views/Body.vue')
+      }
+    },
+    {
+      path: "/mind",
+      name: "mind",
+      component: function() {
+        return import('./views/Mind.vue')
+      }
+    },
+    {
+      path: "/serenity",
+      name: "serenity",
+      component: function() {
+        return import('./views/Serenity.vue')
+      }
+    },
+    {
+      path: "/strength",
+      name: "strength",
+      component: function() {
+        return import('./views/Strength.vue')
+      }
+    },
   ]
 })
