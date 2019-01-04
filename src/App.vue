@@ -33,7 +33,7 @@
                 Personal Strength and Power
               </b-dropdown-item>
             </b-nav-item-dropdown>
-            <b-nav-item to="/Profile" />
+            <!-- <b-nav-item to="/Profile" /> -->
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
@@ -63,8 +63,8 @@
 #nav a {
   font-weight: bold;
   color: #FDBA31;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #nav a.active {

@@ -4,15 +4,15 @@
       <fieldset>
         <legend>PERSONAL INFO</legend>
           First Name
-          <input type="text" name="firstname" />
+          <input type="text" name="firstName" id="firstName"/>
           Last Name
-          <input type="text" name="lastname" />
+          <input type="text" name="lastName" id="lastName"/>
           Email
-          <input type="email" name="lastname" />
+          <input type="email" name="email" id="email"/>
           Phone
-          <input type="tel" name="phone" />
+          <input type="tel" name="phone" id="phone"/>
           Date of Birth
-          <input type="date" name="birth" />
+          <input type="date" name="birth" id="date"/>
       </fieldset>
 
       <fieldset>
