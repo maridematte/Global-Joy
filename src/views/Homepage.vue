@@ -30,54 +30,49 @@
       <b-row class="getStarted">
         <b-col xs="1" md="2" lg="2" />
         <b-col xs="10" md="4" lg="3" class="textSection">
-          <span class="titleGetStarted">
+          <span class="subTitle">
             Get Started
           </span>
-          <br />
           <span class="descriptionGetStarted">
             Search for an interest or choose a category to find
             qualified health professionals in the area.
           </span>
-
-          <b-row style="width:80%;">
-            <input type="text" placeholder="Nutrition, Personal Trainer..."
-              class="searchGetStarted" />
-          </b-row>
-          <b-row>
-            <input type="submit" name="searchCategories"
-            value="Search" class="searchBarGetStarted"/>
-          </b-row>
+          <br />
+          <span id="catLearnMore"> <a href="">
+            Learn more about the categories >
+          </a> </span>
         </b-col>
+        <b-col md="1"/>
 
         <!-- ____ Category Icons ____ -->
-        <b-col xs="10" md="5" ls="4">
+        <b-col xs="10" md="4" lg="4">
           <b-row class="iconBar">
-            <b-col cols="6" xs="5" sm="4">
+            <b-col cols="6" sm="4">
               <a href="/">
                 <img class="CategoryIcons" src="../assets/icons/wholeness.svg" />
               </a>
             </b-col>
-            <b-col cols="6" xs="1" sm="4">
+            <b-col cols="6"  sm="4">
               <a href="/">
                 <img class="CategoryIcons" src="../assets/icons/performance.svg" />
               </a>
             </b-col>
-            <b-col cols="6" xs="1" sm="4">
+            <b-col cols="6" sm="4">
               <a href="/">
                 <img class="CategoryIcons" src="../assets/icons/body.svg" />
               </a>
             </b-col>
-            <b-col cols="6" xs="1" sm="4">
+            <b-col cols="6" sm="4">
               <a href="/">
                 <img class="CategoryIcons" src="../assets/icons/mind.svg" />
               </a>
             </b-col>
-            <b-col cols="6" xs="1" sm="4">
+            <b-col cols="6" sm="4">
               <a href="/">
                 <img class="CategoryIcons" src="../assets/icons/strength.svg" />
               </a>
             </b-col>
-            <b-col cols="6" xs="1" sm="4">
+            <b-col cols="6" sm="4">
               <a href="/">
                 <img class="CategoryIcons" src="../assets/icons/serenity.svg" />
               </a>
@@ -86,13 +81,62 @@
         </b-col>
       </b-row>
 
+      <!-- ______Categories description_______ -->
+      <b-row class="catDescription">
+        <b-col md="2" />
+
+        <b-col md="4" class="categoryText">
+          <b-row>
+            <span class="subTitle">
+              Categories
+            </span>
+            <br />
+            <span>
+              Learn more about how we categorize out health professionals here
+            </span>
+          </b-row>
+          <CatDescription
+              title="WHOLENESS"
+              icon="../assets/icons/wholeness-dot.svg"
+              text="PUT TEXT"/>
+
+          <CatDescription
+              title="BODY"
+              icon="../assets/icons/body-dot.svg"
+              text="PUT TEXT"/>
+
+          <CatDescription
+              title="STRENGTH"
+              icon="../assets/icons/strength-dot.svg"
+              text="PUT TEXT"/>
+
+        </b-col>
+        <b-col md="4">
+          <CatDescription
+              title="PERFORMANCE"
+              icon="../assets/icons/performance-dot.svg"
+              text="PUT TEXT"/>
+
+          <CatDescription
+              title="MIND"
+              icon="../assets/icons/mind-dot.svg"
+              text="PUT TEXT"/>
+
+          <CatDescription
+              title="SERENITY"
+              icon="../assets/icons/serenity-dot.svg"
+              text="PUT TEXT"/>
+              
+        </b-col>
+        <b-col md="1" />
+      </b-row>
 
     </b-container>
   </div>
 </template>
 
 
-<style scoped>
+<style slot-scope>
 .Container {
     padding: 0;
 }
@@ -114,6 +158,10 @@
   color: #FDBA31;
   font-size: 3em;
   margin: 0;
+}
+
+.buttons {
+  margin-top: 3em;
 }
 
 .descriptionHeader {
@@ -165,9 +213,11 @@
   background-color: #F4EEE9;
   width: 100%;
   margin: 0;
+
+  padding-top: 9%;
 }
 
-.titleGetStarted {
+.subTitle {
   color: #ED8A5F;
 
   font-weight: 700;
@@ -185,46 +235,66 @@
 
 .descriptionGetStarted {
   text-align: left;
-}
-
-.searchGetStarted {
-  width: 100%;
-  margin-left: 6%;
-}
-
-.searchBarGetStarted {
-  background-color: #ED8A5F;
-  border: none;
-  color: white;
-
-  text-align: center;
-  text-decoration: none;
-  font-size: 0.8em;
-  font-weight: 700;
-
-  border-radius: 12px;
-  padding: 14px 20px;
-
-  margin-left: 4.5%;
+  display: block;
+  padding-top: 15px;
 }
 
 .CategoryIcons {
-  width: 110px;
+  max-width: 110px;
   height: auto;
+
+  min-width: 95px;
 }
 
+#catLearnMore a {
+  color: #ED8A5F;
+}
+
+.catDescription {
+  background-color: #F4EEE9;
+  width: 100%;
+  margin: 0;
+
+  padding-top: 9%;
+}
+
+#titleCard {
+  text-align: left;
+}
+
+.categoryCard {
+  border: none;
+  display: inline-block;
+}
+
+.categoryText {
+  text-align: left;
+}
+
+.catImage {
+  height: 200px;
+  width: auto;
+  margin-top: 10%;
+}
+
+.divLine {
+  border-right: 2px solid orange;
+}
 
 @media (min-width: 1300px) {
   #headerText {
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 13%;
+    padding-bottom: 13%;
   }
 }
-
 </style>
 
 <script>
+  import CatDescription from "../components/CatDescription.vue"
   export default {
     name: 'homepage',
+    components: {
+      CatDescription
+    }
   }
 </script>
