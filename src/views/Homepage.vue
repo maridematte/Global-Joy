@@ -48,32 +48,32 @@
           <b-col xs="10" md="4" lg="4">
             <b-row class="iconBar">
               <b-col cols="6" sm="4">
-                <a href="/">
+                <a href="#/wholeness">
                   <img class="CategoryIcons" src="../assets/icons/wholeness.svg" />
                 </a>
               </b-col>
               <b-col cols="6"  sm="4">
-                <a href="/">
+                <a href="#/performance">
                   <img class="CategoryIcons" src="../assets/icons/performance.svg" />
                 </a>
               </b-col>
               <b-col cols="6" sm="4">
-                <a href="/">
+                <a href="#/body">
                   <img class="CategoryIcons" src="../assets/icons/body.svg" />
                 </a>
               </b-col>
               <b-col cols="6" sm="4">
-                <a href="/">
+                <a href="#/mind">
                   <img class="CategoryIcons" src="../assets/icons/mind.svg" />
                 </a>
               </b-col>
               <b-col cols="6" sm="4">
-                <a href="/">
+                <a href="#/strength">
                   <img class="CategoryIcons" src="../assets/icons/strength.svg" />
                 </a>
               </b-col>
               <b-col cols="6" sm="4">
-                <a href="/">
+                <a href="#/serenity">
                   <img class="CategoryIcons" src="../assets/icons/serenity.svg" />
                 </a>
               </b-col>
@@ -87,7 +87,7 @@
           <b-col md="1" />
 
           <!-- ____First Column of categories____ -->
-          <b-col md="5" >
+          <b-col md="5">
             <b-row class="categoryText">
               <span class="subTitle">
                 Categories
