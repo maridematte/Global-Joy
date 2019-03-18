@@ -84,9 +84,10 @@
 
         <!-- ______Categories description_______ -->
         <b-row id="catDescriptionRow">
-          <b-col md="2" />
+          <b-col md="1" />
 
-          <b-col md="4" >
+          <!-- ____First Column of categories____ -->
+          <b-col md="5" >
             <b-row class="categoryText">
               <span class="subTitle">
                 Categories
@@ -163,6 +164,8 @@
             </b-row>
 
           </b-col>
+
+          <!-- ____Second column of categories____ -->
           <b-col md="4">
             <b-row class="catFullBlock">
               <b-col>
@@ -302,7 +305,8 @@
 
   #headerText {
     margin: 0;
-
+    padding-top: 13%;
+    padding-bottom: 13%;
   }
 
   #getStarted {
@@ -367,6 +371,8 @@
   .categoryText {
     text-align: left;
     margin-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .catImage {
@@ -390,10 +396,11 @@
     margin-top: -75px;
     margin-left: 144px;
     border-left: solid 1px #ED8A5F;
+    max-width: 350px;
   }
 
   .catFullBlock {
-    margin-bottom: 125px;;
+    margin-bottom: 125px;
   }
 
   .catMore {
@@ -404,11 +411,34 @@
     margin-left: 128px;
   }
 
-  @media (min-width: 1300px) {
+  @media (max-width: 767px) {
     #headerText {
-      padding-top: 13%;
-      padding-bottom: 13%;
+      padding-top: 20%;
+      padding-bottom: 20%;
     }
+
+    .catBlock {
+      margin-top: 10px;
+      margin-left: 15px;
+      border-left: solid 1px #ED8A5F;
+    }
+
+    .catFullBlock {
+      margin-bottom: 90px;
+    }
+
+    .catMore {
+      margin-left: 0;
+    }
+
+  }
+
+  @media (max-width: 450px) {
+    #headerText {
+      padding-top: 28%;
+      padding-bottom: 28%;
+    }
+
   }
 </style>
 
