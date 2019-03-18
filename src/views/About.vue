@@ -9,7 +9,7 @@
     <!-- ___Who we are section___ -->
     <b-row id="whoWeAre">
       <b-col md="2" />
-      <b-col md="4">
+      <b-col md="4" class="aboutBlock">
         <span class="title">
           Who We Are
         </span>
@@ -40,11 +40,12 @@
         <span class="dot" id="yellow"/>
       </b-col>
       <b-col md="1" />
-      <b-col md="4">
+      <b-col md="4" class="aboutBlock">
         <span class="title">
           Hi! I'm Joia!
         </span>
         <br/>
+        <img src="../assets/photos/joia.png" id="joiaImgMobile" />
         <br/>
         <span class="short">
           Global Joy emerged after many years of working in healthcare and recognizing that I no longer wanted to contribute to the system we have.
@@ -204,6 +205,10 @@
     z-index: 1;
   }
 
+  #joiaImgMobile {
+    display: none;
+  }
+
   #whatWe {
     text-align: left;
     margin-bottom: 150px;
@@ -222,6 +227,56 @@
     float: right;
     position: relative;
     z-index: 1;
+  }
+
+  @media(max-width: 767px) {
+    .header {
+      padding-top: 20%;
+      padding-bottom: 20%;
+      background-image: url("../assets/photos/canue.png");
+    }
+
+    .dot {
+        display: none;
+    }
+
+    #whoImg {
+      display:none;
+    }
+
+    #whatImg {
+      display: none;
+    }
+
+    .aboutBlock {
+      border-bottom: solid 1px grey;
+      padding-bottom: 40px;
+    }
+
+    #whoWeAre {
+      margin: 30px 15px 40px 15px;
+    }
+
+    #joia {
+      margin: 30px 15px 40px 15px;
+    }
+
+    #joiaImg{
+      display: none;
+    }
+
+    #joiaImgMobile{
+      width:100%;
+      height: auto;
+
+      position: relative;
+      display:flex;
+      margin-top: 20px;
+    }
+
+    #whatWe{
+      margin: 30px 15px 40px 15px;
+    }
   }
 
 </style>
