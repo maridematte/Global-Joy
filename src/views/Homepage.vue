@@ -86,8 +86,8 @@
         <b-row id="catDescriptionRow">
           <b-col md="2" />
 
-          <b-col md="4" class="categoryText">
-            <b-row>
+          <b-col md="4" >
+            <b-row class="categoryText">
               <span class="subTitle">
                 Categories
               </span>
@@ -96,37 +96,139 @@
                 Learn more about how we categorize out health professionals here
               </span>
             </b-row>
-            <CatDescription
-                title="WHOLENESS"
-                icon="../assets/icons/wholeness-dot.svg"
-                text="PUT TEXT"/>
+            <b-row class="catFullBlock">
+              <b-col>
+                <img src="../assets/icons/wholeness-dot.svg" class="catImage" />
+                <b-row>
+                  <b-col class="catBlock">
+                    <span class="catTitle">
+                      WHOLENESS
+                    </span>
+                    <br/>
+                    <br/>
+                    <span class="catText">
+                      In old English, the word ‘health’ means wholeness, sound, or well. When focusing on wholeness, explore the benefits of working with a health coach, life coach, or a trainer to help get your health started. By practicing health routines daily, you’ll no longer feel like something is missing, you’ll feel whole, you’ll feel well, you’ll be happy.
+                    </span>
+                  </b-col>
+                </b-row>
+                <br/>
+                <span class="catMore">
+                  Learn More >
+                </span>
+              </b-col>
+            </b-row>
 
-            <CatDescription
-                title="BODY"
-                icon="../assets/icons/body-dot.svg"
-                text="PUT TEXT"/>
+            <b-row class="catFullBlock">
+              <b-col>
+                <img src="../assets/icons/body-dot.svg" class="catImage" />
+                <b-row>
+                  <b-col class="catBlock">
+                    <span class="catTitle">
+                      LOVE YOUR BODY
+                    </span>
+                    <br/>
+                    <br/>
+                    <span class="catText">
+                      Loving your body means being happy with everything it does and doesn’t do. It means being out of judgment about how you look and how you feel. It means listening to it, fueling it correctly, and doing exactly what it needs to feel well. Find specialists that help you achieve this self-love so you can live well and the way you deserve.
+                    </span>
+                  </b-col>
+                </b-row>
+                <br/>
+                <span class="catMore">
+                  Learn More >
+                </span>
+              </b-col>
+            </b-row>
 
-            <CatDescription
-                title="STRENGTH"
-                icon="../assets/icons/strength-dot.svg"
-                text="PUT TEXT"/>
+            <b-row class="catFullBlock">
+              <b-col>
+                <img src="../assets/icons/strength-dot.svg" class="catImage" />
+                <b-row>
+                  <b-col class="catBlock">
+                    <span class="catTitle">
+                      PERSONAL STRENGTH & POWER
+                    </span>
+                    <br/>
+                    <br/>
+                    <span class="catText">
+                      In work and play, our inner power can determine our successes, happiness, and the future of our relationships. The strength we display in character helps us master the rest of our lives, so if you’re looking to land a better job or be a stronger athlete, working with a career coach, or a strength trainer is going to take you to the next level. Don’t hide in the shadows, embrace your power.
+                    </span>
+                  </b-col>
+                </b-row>
+                <br/>
+                <span class="catMore">
+                  Learn More >
+                </span>
+              </b-col>
+            </b-row>
 
           </b-col>
           <b-col md="4">
-            <CatDescription
-                title="PERFORMANCE"
-                icon="../assets/icons/performance-dot.svg"
-                text="PUT TEXT"/>
+            <b-row class="catFullBlock">
+              <b-col>
+                <img src="../assets/icons/performance-dot.svg" class="catImage" />
+                <b-row>
+                  <b-col class="catBlock">
+                    <span class="catTitle">
+                      PERFORMANCE PERFECTION
+                    </span>
+                    <br/>
+                    <br/>
+                    <span class="catText">
+                      Whether you’re training for a marathon or you merely want to be better at what you do, aiming for perfection is not easy to do alone. Find a high-performance personal trainer to enhance your performance, a nutritionist to hone your diet, or soft tissue manipulation to expedite recovery. Focus gets results.
+                    </span>
+                  </b-col>
+                </b-row>
+                <br/>
+                <span class="catMore">
+                  Learn More >
+                </span>
+              </b-col>
+            </b-row>
 
-            <CatDescription
-                title="MIND"
-                icon="../assets/icons/mind-dot.svg"
-                text="PUT TEXT"/>
+            <b-row class="catFullBlock">
+              <b-col>
+                <img src="../assets/icons/mind-dot.svg" class="catImage" />
+                <b-row>
+                  <b-col class="catBlock">
+                    <span class="catTitle">
+                      A BEAUTIFUL MIND
+                    </span>
+                    <br/>
+                    <br/>
+                    <span class="catText">
+                      Our minds are continually running, we’re constantly stimulated, and our attention spans are short. These specialists are here to help you gain the benefits of focus, determination, quitting bad habits, and start living the life where you’re in control. Let your mind rejuvenate, forgive yourself for the past and move beautifully into the future.
+                    </span>
+                  </b-col>
+                </b-row>
+                <br/>
+                <span class="catMore">
+                  Learn More >
+                </span>
+              </b-col>
+            </b-row>
 
-            <CatDescription
-                title="SERENITY"
-                icon="../assets/icons/serenity-dot.svg"
-                text="PUT TEXT"/>
+            <b-row class="catFullBlock">
+              <b-col>
+                <img src="../assets/icons/serenity-dot.svg" class="catImage" />
+                <b-row>
+                  <b-col class="catBlock">
+                    <span class="catTitle">
+                      SERENITY
+                    </span>
+                    <br/>
+                    <br/>
+                    <span class="catText">
+                      Peace, stability, low-stress levels, normal blood pressure, a deep inhale and exhale, we are meant to be in this place of tranquility. With the amount of stimulation that we have from all angles in life, our bodies think we’re in a state of chronic stress. Stress is detrimental to our health. To get back to baseline, to be in a place of less stress, and to be more mindful, find your connection to the universe and breathe.
+                    </span>
+                  </b-col>
+                </b-row>
+                <br/>
+                <span class="catMore">
+                  Learn More >
+                </span>
+              </b-col>
+            </b-row>
 
           </b-col>
           <b-col md="2" />
@@ -140,11 +242,6 @@
 
 
 <style slot-scope>
-  .Container {
-      /* padding-right: 0;
-      padding-left: 0;
-      margin: 0; */
-  }
 
   .header {
     background-image: url("../assets/photos/homepage.png");
@@ -154,8 +251,6 @@
     margin: 0;
 
     font-weight: 1000;
-
-    /* padding: 0 0 0 0; */
 
     text-align: left;
   }
@@ -256,6 +351,8 @@
     margin: 0;
 
     padding-top: 9%;
+
+    text-align: left;
   }
 
   #titleCard {
@@ -269,16 +366,42 @@
 
   .categoryText {
     text-align: left;
+    margin-bottom: 60px;
   }
 
   .catImage {
-    height: 200px;
+    height: 260px;
     width: auto;
-    margin-top: 10%;
   }
 
-  .divLine {
-    border-right: 2px solid orange;
+  .catTitle {
+    font-size: 1.3em;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  .catText {
+    font-size: 0.8em;
+    max-width: 350px;
+    display: flex;
+  }
+
+  .catBlock {
+    margin-top: -75px;
+    margin-left: 144px;
+    border-left: solid 1px #ED8A5F;
+  }
+
+  .catFullBlock {
+    margin-bottom: 125px;;
+  }
+
+  .catMore {
+    color: #ED8A5F;
+    font-size: 1.1em;
+    font-weight: bold;
+
+    margin-left: 128px;
   }
 
   @media (min-width: 1300px) {
@@ -290,13 +413,11 @@
 </style>
 
 <script>
-  import CatDescription from "../components/CatDescription.vue"
   import Foot from "../components/Foot.vue"
 
   export default {
     name: 'homepage',
     components: {
-      CatDescription,
       Foot
     }
   }

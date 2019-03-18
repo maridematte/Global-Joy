@@ -1,6 +1,6 @@
 <template>
   <b-row>
-    <img class="catImage" :src={icon} />
+    <img v-bind:src="icon" class="catImage" />
     <span class="catTitle">
       {{title}}
     </span>
@@ -21,6 +21,8 @@
 
 
 <script>
+
+
   export default {
     name: "catDescription",
     components: {},
@@ -31,7 +33,7 @@
       },
       icon: {
         type: String,
-        // required: true
+        required: true
       },
       text: {
         type: String,

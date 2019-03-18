@@ -68,11 +68,11 @@
     margin-left: 20px;
   }
 
-  .footerBg a {
+  #footerBg a {
     color: white;
   }
 
-  .footerBg a.hover {
+  #footerBg a.hover {
     color: white;
     border-bottom: 1px solid white;
   }
