@@ -48,13 +48,13 @@ export default new Router({
         return import("./views/NewProfileProfessional.vue");
       }
     },
-    {
-      path: "/newClient",
-      name: "client",
-      component: function() {
-        return import("./views/NewProfileClient.vue");
-      }
-    },
+    // {
+    //   path: "/newClient",
+    //   name: "client",
+    //   component: function() {
+    //     return import("./views/NewProfileClient.vue");
+    //   }
+    // },
     {
       path: "/wholeness",
       name: "wholeness",

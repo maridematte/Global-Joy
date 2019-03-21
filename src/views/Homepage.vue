@@ -84,10 +84,10 @@
 
         <!-- ______Categories description_______ -->
         <b-row id="catDescriptionRow">
-          <b-col md="1" />
+          <b-col md="2" />
 
           <!-- ____First Column of categories____ -->
-          <b-col md="5">
+          <b-col>
             <b-row class="categoryText">
               <span class="subTitle">
                 Categories
@@ -166,7 +166,7 @@
           </b-col>
 
           <!-- ____Second column of categories____ -->
-          <b-col md="4">
+          <b-col>
             <b-row class="catFullBlock">
               <b-col>
                 <img src="../assets/icons/performance-dot.svg" class="catImage" />
