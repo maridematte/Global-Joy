@@ -3,6 +3,6 @@
 
 </template>
 
-<style scoped>
+<style slot-scope>
 
 </style>

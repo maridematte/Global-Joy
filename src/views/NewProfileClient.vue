@@ -25,6 +25,6 @@
   </div>
 </template>
 
-<styled scoped>
+<styled slot-scope>
 
 </styled>

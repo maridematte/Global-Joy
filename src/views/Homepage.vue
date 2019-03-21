@@ -3,7 +3,7 @@
     <b-container fluid class="Container">
       <b-row>
         <!-- _____ Header image and text _____ -->
-        <b-row id="headerText" class="header">
+        <b-row id="headerText" class="headerHome">
           <b-col xs="1" md="2" />
           <b-col xs="10" sm="6" md="4" lg="3">
             <span class="titleHeader"> Global Joy </span>
@@ -246,7 +246,7 @@
 
 <style slot-scope>
 
-  .header {
+  .headerHome {
     background-image: url("../assets/photos/homepage.png");
     background-repeat: no-repeat;
     background-size: cover;

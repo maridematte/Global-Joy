@@ -1,6 +1,6 @@
 <template>
   <b-container fluid class="Container">
-    <b-row class="header" align-h="center">
+    <b-row class="headerMind" align-h="center">
       <span id="title">
         Mind
       </span>
@@ -12,65 +12,76 @@
       </b-col>
       <b-col />
     </b-row>
+    <Foot />
   </b-container>
 </template>
 
-<style scoped>
-.Container{
-  padding: 0;
-  /* margin: 0; */
-}
+<style slot-scope>
+  .Container{
+    padding: 0;
+    /* margin: 0; */
+  }
 
-.header{
-  background-image: url("../assets/photos/categories/mind.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+  .headerMind{
+    background-image: url("../assets/photos/categories/mind.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 
-  font-family: 'Poppins', sans-serif;
-  font-weight: 1000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
 
-  text-align: left;
+    text-align: left;
 
-  padding-top: 15%;
-  padding-bottom: 15%;
-
-  margin: 0;
-
-  /* @media (min-width: 1500px) {
     padding-top: 15%;
     padding-bottom: 15%;
-  } */
-}
 
-.page{
-  font-family: 'Poppins', sans-serif;
-  background-color: #F4EEE9;
-}
+    margin: 0;
 
-#title {
-  color: #FDBA31;
-  font-size: 3em;
-}
+    /* @media (min-width: 1500px) {
+      padding-top: 15%;
+      padding-bottom: 15%;
+    } */
+  }
 
-#InfoArea {
-  padding:0;
-  width: 100%;
-  margin: 0;
+  .page{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4EEE9;
+  }
 
-  background-color: #F4EEE9;
-  height: 100%;
+  #title {
+    color: #FDBA31;
+    font-size: 3em;
+  }
 
-}
+  #InfoArea {
+    padding:0;
+    width: 100%;
+    margin: 0;
 
-#trainerList {
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
+    background-color: #F4EEE9;
+    height: 100%;
 
-/* Will be included automatically on page */
-.trainer {
+  }
 
-}
+  #trainerList {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
 
+  /* Will be included automatically on page */
+  .trainer {
+
+  }
 </style>
+
+<script>
+  import Foot from "../components/Foot.vue"
+
+  export default {
+    name: 'mind',
+    components: {
+      Foot
+    }
+  }
+</script>

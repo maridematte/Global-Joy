@@ -1,6 +1,6 @@
 <template>
   <b-container fluid class="Container">
-    <b-row class="header" align-h="center">
+    <b-row class="headerAbout" align-h="center">
       <span id="headerTitle">
         About Us
       </span>
@@ -62,7 +62,7 @@
           <a href="">Joia’s LinkedIn profile > </a>
         </span>
       </b-col>
-      <b-col md="1" />
+      <b-col md="1"/>
     </b-row>
 
     <b-row id="whatWe">
@@ -105,7 +105,7 @@
     background-color: #F4EEE9;
   }
 
-  .header{
+  .headerAbout{
     background-image: url("../assets/photos/aboutHeader.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,6 +131,7 @@
     margin-bottom: 150px;
 
     text-align: left;
+    width: 100%;
   }
 
   .title {
@@ -190,6 +191,7 @@
   #joia {
     text-align: left;
     margin-bottom: 150px;
+    width: 100%;
   }
 
   #joia a {
@@ -210,6 +212,7 @@
   }
 
   #whatWe {
+    width: 100%;
     text-align: left;
     margin-bottom: 150px;
   }
@@ -230,7 +233,7 @@
   }
 
   @media(max-width: 767px) {
-    .header {
+    .headerAbout {
       padding-top: 20%;
       padding-bottom: 20%;
       background-image: url("../assets/photos/canue.png");

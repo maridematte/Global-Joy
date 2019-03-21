@@ -76,37 +76,4 @@ export default {
     }
   }
 };
-// import axios from "axios";
-//
-// export default {
-//   name: "Login",
-//   data() {
-//     return {
-//       login: {},
-//       errors: []
-//     };
-//   },
-//   methods: {
-//     onSubmit(evt) {
-//       evt.preventDefault();
-//       axios
-//         .post(`http://localhost:3000/api/auth/login/`, this.login)
-//         .then(response => {
-//           localStorage.setItem("jwtToken", response.data.token);
-//           this.$router.push({
-//             name: "About"
-//           });
-//         })
-//         .catch(e => {
-//           console.log(e);
-//           this.errors.push(e);
-//         });
-//     },
-//     register() {
-//       this.$router.push({
-//         name: "NewProfileProfessional"
-//       });
-//     }
-//   }
-// };
 </script>

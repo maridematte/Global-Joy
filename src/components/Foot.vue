@@ -49,7 +49,7 @@
   </b-row>
 </template>
 
-<style scoped>
+<style slot-scope>
   #footerBg{
       background-color: #0E323D;
       color: white;

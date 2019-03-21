@@ -12,7 +12,7 @@
 </template>
 
 
-<style scoped>
+<style slot-scope>
   .catImage {
     width: 100px;
     height: auto;
