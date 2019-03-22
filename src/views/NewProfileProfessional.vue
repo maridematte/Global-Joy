@@ -14,13 +14,14 @@
           </span>
         </b-row>
         <b-row class="formBlock">
-          <div v-if="errors && errors.length">
-            <div v-for="error of errors">
-              <b-alert show>{{error.message}}</b-alert>
-            </div>
-          </div>
           <b-col md="1" />
           <b-col md="10" id="theForm">
+            <div v-if="errors && errors.length">
+              <div v-for="error of errors">
+                <b-alert show>{{error.message}}</b-alert>
+              </div>
+            </div>
+            <br/>
             <b-form @submit="onSubmit" class="fillForm">
               <b-row id="personalRow">
                 <b-col>

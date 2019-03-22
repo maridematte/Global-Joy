@@ -18,7 +18,7 @@
             <span id="noAccount">
               Don't have an account?
               <br/>
-              <a href="">Register here ></a>
+              <a href="/#/newProfessional">Register here ></a>
             </span>
             <br/>
             <br/>
@@ -100,7 +100,7 @@
     background-color: #F4EEE9;
 
     text-align: left;
-    height: 109vh;
+    height: 105vh;
   }
 
   .ContainerLog a {
@@ -112,7 +112,7 @@
   }
 
   .HeaderLogin{
-    background-image: url("../assets/photos/categories/mind.png");
+    background-image: url("../assets/photos/categories/performance.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -131,10 +131,6 @@
   #title {
     color: #FDBA31;
     font-size: 3em;
-  }
-
-  #nav {
-    display:none;
   }
 
   #logBox {

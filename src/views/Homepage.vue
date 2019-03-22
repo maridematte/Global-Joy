@@ -17,7 +17,7 @@
                   Get Started
                 </button>
               </a>
-              <a href="/">
+              <a href="/#/newProfessional">
                 <button id="signUpButton">
                   Sign Up
                 </button>
@@ -113,9 +113,9 @@
                   </b-col>
                 </b-row>
                 <br/>
-                <span class="catMore">
+                <a href="/#/wholeness" class="catMore">
                   Learn More >
-                </span>
+                </a>
               </b-col>
             </b-row>
 
@@ -135,9 +135,9 @@
                   </b-col>
                 </b-row>
                 <br/>
-                <span class="catMore">
+                <a href="/#/body" class="catMore">
                   Learn More >
-                </span>
+                </a>
               </b-col>
             </b-row>
 
@@ -157,9 +157,9 @@
                   </b-col>
                 </b-row>
                 <br/>
-                <span class="catMore">
+                <a href="/#/strength" class="catMore">
                   Learn More >
-                </span>
+                </a>
               </b-col>
             </b-row>
 
@@ -183,9 +183,9 @@
                   </b-col>
                 </b-row>
                 <br/>
-                <span class="catMore">
+                <a href="/#/performance" class="catMore">
                   Learn More >
-                </span>
+                </a>
               </b-col>
             </b-row>
 
@@ -205,9 +205,9 @@
                   </b-col>
                 </b-row>
                 <br/>
-                <span class="catMore">
+                <a href="/#/mind" class="catMore">
                   Learn More >
-                </span>
+                </a>
               </b-col>
             </b-row>
 
@@ -227,9 +227,9 @@
                   </b-col>
                 </b-row>
                 <br/>
-                <span class="catMore">
+                <a href="/#/serenity" class="catMore">
                   Learn More >
-                </span>
+                </a>
               </b-col>
             </b-row>
 
@@ -411,10 +411,29 @@
     margin-left: 128px;
   }
 
+  @media(max-width: 1200px) {
+    #headerText {
+      padding-top: 30%;
+      padding-bottom: 20%;
+    }
+  }
+
   @media (max-width: 767px) {
     #headerText {
-      padding-top: 20%;
+      padding-top: 200px;
       padding-bottom: 20%;
+      padding-left: 30px;
+
+    }
+
+    #getStarted {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    #catDescriptionRow {
+      padding-left: 15px;
+      padding-right: 15px;
     }
 
     .catBlock {
@@ -429,14 +448,6 @@
 
     .catMore {
       margin-left: 0;
-    }
-
-  }
-
-  @media (max-width: 450px) {
-    #headerText {
-      padding-top: 28%;
-      padding-bottom: 28%;
     }
 
   }
